@@ -45,10 +45,9 @@ export default function RootLayout({
   children
 }: PropsWithChildren) {
   return (
-    <html lang="en">
+    <html lang="ja">
       <body className="bg-black loading">
         <SupabaseProvider>
-          {/* @ts-expect-error */}
           <Navbar />
           <main
             id="skip"
